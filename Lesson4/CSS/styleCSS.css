@@ -1,0 +1,17 @@
+h5 {
+	color: red;
+}
+div {
+	background-color: yellow;
+}
+.Header {
+	background-color: rgb(50, 71, 189);
+	color: rgb(72, 255, 0);
+}
+.about {
+	background-color: black;
+	color: aqua;
+}
+#cat-types {
+	font-size: 30px;
+}
