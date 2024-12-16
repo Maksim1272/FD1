@@ -1,0 +1,39 @@
+.calc {
+    width: 700px;
+    height: 500px;
+    border: 2px solid #000
+}
+.btn {
+    width: 50px;
+    height: 45px;
+    text-align: center;
+    color: blue;
+}
+.btn1 {
+    width: 50px;
+    height: 45px;
+    text-align: center;
+color: rgb(189, 52, 189);
+}
+.btn2 {
+    width: 50px;
+    height: 45px;
+    text-align: center;
+color: red;
+
+}
+.btn3 {
+    width: 50px;
+    height: 45px;
+    text-align: center;
+color: gray;
+}
+
+.btn4 {
+    width: 90px;
+    height: 45px;
+    text-align: center;
+color: red;
+
+
+}
