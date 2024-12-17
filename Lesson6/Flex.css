@@ -1,0 +1,62 @@
+.wrapper {
+	display: flex;
+	height: 800px;
+	background: #bb7979;
+	/* flex-direction: row; */
+	/* flex-direction: row-reverse; */
+	/* flex-direction: column; */
+	/* flex-direction: column-reverse; */
+	/* justify-content: flex-start; */
+	/* justify-content: flex-end; */
+	/* justify-content: space-around; */
+	/* justify-content: space-between; */
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	/* align-items: flex-end; */
+	/* align-self: center; */
+	align-items: stretch;
+	align-items: baseline;
+}
+
+.red {
+	background-color: red;
+	align-self: flex-start;
+	align-self: center;
+	align-self: baseline;
+	min-width: 25%;
+}
+.green {
+	background-color: green;
+}
+.brown {
+	background-color: brown;
+	height: 250px;
+}
+.purple {
+	background-color: purple;
+	height: 360px;
+}
+.orange {
+	background-color: orange;
+	height: 100px;
+}
+/* .w-100 {
+	width: 100%;
+} */
+/* .wrapper > div {
+	width: 100px;
+} */
+
+/* .brown,
+.purple {
+	color: rgb(0, 255, 255);
+}
+#p1 + #p2 {
+	color: blueviolet;
+}
+.green + .red {
+	color: blueviolet;
+}
+.wrapper > .green p {
+	font-size: 30px;
+} */
