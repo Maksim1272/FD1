@@ -1,0 +1,27 @@
+.wrapper {
+    display: flex;
+    
+}
+.Header {
+    background-color: blue;
+  
+    
+}
+
+.Article {
+    background-color: red;
+    
+   
+}
+.Nav {
+    background-color: yellow;
+    
+}
+.Ads {
+    background-color: green;
+   
+}
+.Footer {
+    background-color:gray;
+    
+}
