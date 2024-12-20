@@ -1,0 +1,42 @@
+.wrapper {
+    display: grid ;
+    border: 1;
+    
+    width: 100%;
+	height: 500px;
+    background-color: white;
+   
+   grid-template-columns: repeat(8, 70px);
+    grid-template-areas:
+		"Header Header Header Header Header Header Header Header"
+        "Article Article Article Article Article Nav Nav Ads"
+        "Article Article Article Article Article Nav Nav Ads"
+        "Article Article Article Article Article Nav Nav Ads"
+        "Article Article Article Article Article Nav Nav Ads"
+        "Footer Footer Footer Footer Footer Footer Footer Footer"
+		;
+	gap: 8px ;
+  }
+
+.Header {
+    background-color: blue;
+    grid-area: Header;
+    
+}
+
+.Article {
+    background-color: red;
+    grid-area: Article;
+}
+.Nav {
+    background-color: yellow;
+    grid-area: Nav;
+}
+.Ads {
+    background-color: green;
+    grid-area: Ads;
+}
+.Footer {
+    background-color:gray;
+    grid-area: Footer;
+}
